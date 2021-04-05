@@ -1,0 +1,25 @@
+html {
+    scroll-behavior: smooth;
+  }
+.gradiant{
+    background: rgb(162,135,217);
+    background: linear-gradient(90deg, rgba(162,135,217,1) 0%, rgba(0,31,255,1) 100%);
+}
+#Features ul li{
+   list-style: none;
+   background: url(../img/check.svg) no-repeat;
+   margin: 1rem 0;
+   padding-left: 2rem;
+}
+.icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+#gallery{
+    background-color: whitesmoke;
+}
